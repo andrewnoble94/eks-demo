@@ -15,8 +15,8 @@ spec:
     spec:
       containers:
       - name: liatrio-demo
-        image: local/liatrio:latest
-        imagePullPolicy: Never
+        image: chadd944/liatrio:latest
+        # imagePullPolicy: Never
         ports:
         - containerPort: 5000
 ---
