@@ -26,10 +26,9 @@ metadata:
   name: liatrio-demo-api
   namespace: default
 spec:
-  type: NodePort
+  type: LoadBalancer
   selector:
     app: api
   ports:
   - port: 5000
     targetPort: 5000
-    nodePort: 30001
