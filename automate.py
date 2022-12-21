@@ -19,3 +19,6 @@ def get_message():
     { 'message': 'Automate all the things!', 'timestamp': get_time() }
     ]
     return jsonify(message)
+
+if __name__ == "__main__":
+    app.run(host="0.0.0.0", port=5000)
