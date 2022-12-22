@@ -185,7 +185,7 @@
     },
     {
         "ParameterKey": "AvailabilityZones",
-        "ParameterValue": "us-east-1a,us-east-1b,us-east-1c"
+        "ParameterValue": "us-west-2a,us-west-2b,us-west-2c"
     },
     {
         "ParameterKey": "EKSClusterName",
@@ -225,7 +225,7 @@
     },
     {
         "ParameterKey": "QSS3BucketRegion",
-        "ParameterValue": "us-east-1"
+        "ParameterValue": "us-west-2"
     },
     {
         "ParameterKey": "PerAccountSharedResources",
