@@ -5,7 +5,6 @@ build:
 push:
 	docker image push ${dockerTag}
 
-
 infra-deploy: 
 	aws cloudformation deploy --template-file amazon-eks-entrypoint-new-vpc.template.yaml --stack-name eks --parameter-overrides file://cfparams.json
 
