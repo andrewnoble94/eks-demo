@@ -2,7 +2,9 @@
 <a name="readme-top"></a>
 
 <!-- ABOUT THE PROJECT -->
-## EKS - Autoate all the tings! - About The Project
+# Automate all the tings!  
+
+## About The Project
 
 The application contained in this repo is a python Flask application that in designed to be deployed on Kubernetes. This repository contains all the required resources to get this flask api up and running on AWS EKS. This readme describes how to deploy the solution, and a brief overview of resources that were used. 
 
