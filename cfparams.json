@@ -1,0 +1,254 @@
+ [
+    {
+        "ParameterKey": "RafaySysFirstName",
+        "ParameterValue": ""
+    },
+    {
+        "ParameterKey": "PublicSubnet3CIDR",
+        "ParameterValue": "10.0.160.0/20"
+    },
+    {
+        "ParameterKey": "PrivateSubnet2CIDR",
+        "ParameterValue": "10.0.32.0/19"
+    },
+    {
+        "ParameterKey": "MuleLicenseKeyinbase64",
+        "ParameterValue": "****"
+    },
+    {
+        "ParameterKey": "ALBIngressController",
+        "ParameterValue": "Enabled"
+    },
+    {
+        "ParameterKey": "NumberOfNodes",
+        "ParameterValue": "3"
+    },
+    {
+        "ParameterKey": "RafaySysBootstrapKey",
+        "ParameterValue": ""
+    },
+    {
+        "ParameterKey": "QSS3KeyPrefix",
+        "ParameterValue": "quickstart-amazon-eks/"
+    },
+    {
+        "ParameterKey": "NodeInstanceType",
+        "ParameterValue": "t3.medium"
+    },
+    {
+        "ParameterKey": "NewRelicIntegration",
+        "ParameterValue": "Disabled"
+    },
+    {
+        "ParameterKey": "TestSuite",
+        "ParameterValue": "Disabled"
+    },
+    {
+        "ParameterKey": "OnDemandPercentage",
+        "ParameterValue": "100"
+    },
+    {
+        "ParameterKey": "PrivateSubnet3CIDR",
+        "ParameterValue": "10.0.64.0/19"
+    },
+    {
+        "ParameterKey": "VPCCIDR",
+        "ParameterValue": "10.0.0.0/16"
+    },
+    {
+        "ParameterKey": "GrafanaIntegration",
+        "ParameterValue": "Disabled"
+    },
+    {
+        "ParameterKey": "NodeGroupType",
+        "ParameterValue": "Managed"
+    },
+    {
+        "ParameterKey": "MonitoringStack",
+        "ParameterValue": "None"
+    },
+    {
+        "ParameterKey": "RafaySysOrganizationName",
+        "ParameterValue": ""
+    },
+    {
+        "ParameterKey": "PublicSubnet1CIDR",
+        "ParameterValue": "10.0.128.0/20"
+    },
+    {
+        "ParameterKey": "MuleSoftRtfIntegration",
+        "ParameterValue": "Disabled"
+    },
+    {
+        "ParameterKey": "RancherIntegration",
+        "ParameterValue": "Disabled"
+    },
+    {
+        "ParameterKey": "QSS3BucketName",
+        "ParameterValue": "aws-quickstart"
+    },
+    {
+        "ParameterKey": "RemoteAccessCIDR",
+        "ParameterValue": "disabled-onlyssmaccess"
+    },
+    {
+        "ParameterKey": "SnykIntegrationId",
+        "ParameterValue": ""
+    },
+    {
+        "ParameterKey": "RancherDomainName",
+        "ParameterValue": "aws.private"
+    },
+    {
+        "ParameterKey": "ClusterAutoScaler",
+        "ParameterValue": "Disabled"
+    },
+    {
+        "ParameterKey": "PublicSubnet2CIDR",
+        "ParameterValue": "10.0.144.0/20"
+    },
+    {
+        "ParameterKey": "SnykIntegration",
+        "ParameterValue": "Disabled"
+    },
+    {
+        "ParameterKey": "AdditionalEKSAdminRoleArn",
+        "ParameterValue": ""
+    },
+    {
+        "ParameterKey": "NewRelicLicenseKey",
+        "ParameterValue": "****"
+    },
+    {
+        "ParameterKey": "EfsStorageClass",
+        "ParameterValue": "Disabled"
+    },
+    {
+        "ParameterKey": "ConfigSetName",
+        "ParameterValue": ""
+    },
+    {
+        "ParameterKey": "RafaySysApiKey",
+        "ParameterValue": ""
+    },
+    {
+        "ParameterKey": "NumberOfAZs",
+        "ParameterValue": "3"
+    },
+    {
+        "ParameterKey": "PrometheusIntegration",
+        "ParameterValue": "Disabled"
+    },
+    {
+        "ParameterKey": "OrgID",
+        "ParameterValue": ""
+    },
+    {
+        "ParameterKey": "NodeInstanceFamily",
+        "ParameterValue": "Standard"
+    },
+    {
+        "ParameterKey": "RafaySysProject",
+        "ParameterValue": "defaultproject"
+    },
+    {
+        "ParameterKey": "MaxNumberOfNodes",
+        "ParameterValue": "3"
+    },
+    {
+        "ParameterKey": "RafaySysApiSecret",
+        "ParameterValue": "****"
+    },
+    {
+        "ParameterKey": "Password",
+        "ParameterValue": "****"
+    },
+    {
+        "ParameterKey": "KubernetesVersion",
+        "ParameterValue": "1.23"
+    },
+    {
+        "ParameterKey": "KeyPairName",
+        "ParameterValue": "eks-cluster-key"
+    },
+    {
+        "ParameterKey": "ProvisionBastionHost",
+        "ParameterValue": "Enabled"
+    },
+    {
+        "ParameterKey": "UserName",
+        "ParameterValue": "****"
+    },
+    {
+        "ParameterKey": "EKSPublicAccessEndpoint",
+        "ParameterValue": "Enabled"
+    },
+    {
+        "ParameterKey": "AvailabilityZones",
+        "ParameterValue": "us-east-2a,us-east-2b,us-east-2c"
+    },
+    {
+        "ParameterKey": "EKSClusterName",
+        "ParameterValue": ""
+    },
+    {
+        "ParameterKey": "CalicoIntegration",
+        "ParameterValue": "Disabled"
+    },
+    {
+        "ParameterKey": "OnDemandBastionPercentage",
+        "ParameterValue": "100"
+    },
+    {
+        "ParameterKey": "FargateLabels",
+        "ParameterValue": ""
+    },
+    {
+        "ParameterKey": "RafaySysIntegration",
+        "ParameterValue": "Disabled"
+    },
+    {
+        "ParameterKey": "NodeGroupOS",
+        "ParameterValue": "Amazon Linux 2"
+    },
+    {
+        "ParameterKey": "PrivateSubnet1CIDR",
+        "ParameterValue": "10.0.0.0/19"
+    },
+    {
+        "ParameterKey": "RafaySysBootstrapBucket",
+        "ParameterValue": ""
+    },
+    {
+        "ParameterKey": "RafaySysLastName",
+        "ParameterValue": ""
+    },
+    {
+        "ParameterKey": "QSS3BucketRegion",
+        "ParameterValue": "us-east-1"
+    },
+    {
+        "ParameterKey": "PerAccountSharedResources",
+        "ParameterValue": "AutoDetect"
+    },
+    {
+        "ParameterKey": "RTFFabricName",
+        "ParameterValue": ""
+    },
+    {
+        "ParameterKey": "AdditionalEKSAdminUserArn",
+        "ParameterValue": "arn:aws:iam::959927242984:user/andrew"
+    },
+    {
+        "ParameterKey": "FargateNamespaces",
+        "ParameterValue": ""
+    },
+    {
+        "ParameterKey": "PerRegionSharedResources",
+        "ParameterValue": "AutoDetect"
+    },
+    {
+        "ParameterKey": "RafaySysEmail",
+        "ParameterValue": ""
+    }
+]
